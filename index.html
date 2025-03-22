@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuffGraphics</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#contact">Contact</a>
+            <a href="#services-section">Services</a>
+
+        </div>
+        <div class="logo">BuffGraphics</div>
+        <div class="nav-right">
+            <a href="#home">Home</a>
+            <a href="#about-us">About</a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#about-us">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#services-section">Services</a>
+    </div>
+</head>
+<body>
+    <div class="floating-logo">
+        <img src="images/buff.jpg" alt="Company Logo">
+      </div>
+      
+      <section class="hero">
+        <h1 data-aos="fade-up">Welcome to <span>BuffGraphics</span></h1>
+        <p data-aos="fade-up" data-aos-delay="300">We create amazing experiences for your brand.</p>
+        <a href="#brandStrategy" class="btn" data-aos="zoom-in" data-aos-delay="500">Explore More</a>
+        </section>
+        
+
+
+
+
+
+        <section id="about-us" class="about-us-section">
+            <div class="container">
+                <div class="about-us-content">
+                    <h2>About Us</h2>
+                    <p>We are a creative team of passionate developers, designers, and marketers, committed to delivering cutting-edge solutions that help businesses thrive in the digital world.</p>
+                    <p>Our mission is simple: to provide personalized, innovative, and user-centric web solutions that drive success. Whether you are a small business or a large enterprise, we ensure your digital presence is impactful and your goals are achieved.</p>
+                    <a href="#services-section" class="btn btn-primary">Explore Our Services</a>
+                </div>
+                <div class="about-us-image">
+                    <img src="images/WORK.jpg" alt="About Us Image">
+                </div>
+            </div>
+        </section>
+        
+        <section id="brandStrategy" class="brand-strategy">
+            <div class="container">
+                <div class="heading">
+                    <h2>Brand Strategy</h2>
+                    <p>Creating powerful brand strategies that align with your business goals.</p>
+                </div>
+                <div class="content">
+                    <div class="strategy-item">
+                        <div class="circle-icon">
+                            <img src="images/MM.png" alt="Research & Insights" />
+                        </div>
+                        <h3>Research & Insights</h3>
+                        <p>We dive deep into market trends and consumer behavior to drive your brand’s success.</p>
+                    </div>
+                    <div class="strategy-item">
+                        <div class="circle-icon">
+                            <img src="images/MM.png" alt="Brand Positioning" />
+                        </div>
+                        <h3>Brand Positioning</h3>
+                        <p>We position your brand uniquely in the market to make a strong impression on your audience.</p>
+                    </div>
+                    <div class="strategy-item">
+                        <div class="circle-icon">
+                            <img src="images/MM.png" alt="Identity & Messaging" />
+                        </div>
+                        <h3>Identity & Messaging</h3>
+                        <p>Your brand's identity and messaging make you unforgettable. We ensure it’s both impactful and consistent.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+        <div id="preloader">
+            <img src="images/MM.png" id="loading-logo" alt="Loading..." />
+        </div>
+        
+        
+        
+        
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="images/gh.jpg" alt="Image 1">
+                <img src="images/2025.jpg" alt="Image 2">
+                <img src="images/foll.jpg" alt="Image 3">
+                <img src="images/hj.jpg" alt="Image 4">
+            </div>
+            
+        </div>
+
+
+
+
+
+        
+        <section id="services-section"class="services-section">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-box" onclick="toggleDetails(this)">
+                    <img src="images/web.jpg" alt="Web Development">
+                    <h4>Web Development</h4>
+                    <p>We specialize in building modern, user-friendly, and fully responsive websites that are designed to enhance your online presence. Whether you're a small business or a large enterprise, we ensure that your website not only looks great 
+                        on all devices but also functions seamlessly to provide the best experience for your users.</p>
+                        <p>Our team focuses on creating websites that are visually appealing, easy to navigate, and tailored to meet the specific needs of your business, 
+                            helping you reach a broader audience and achieve your online goals.</p>
+                </div>
+                <div class="service-box" onclick="toggleDetails(this)">
+                    <img src="images/UI.jpg" alt="UI/UX Design">
+                    <h4>UI/UX Design</h4>
+                    <p>We provide top-notch UI/UX design services focused on creating intuitive and engaging user experiences. Our team works closely with you to understand your brand, target audience, and goals to design interfaces that are both aesthetically pleasing and user-friendly.</p>
+       <p>From wireframing to high-fidelity prototypes, we ensure 
+        that every design element is crafted with usability and functionality 
+        in mind. Whether you're looking to redesign an existing platform or build one 
+        from scratch, our UI/UX designs are tailored to make your 
+         product easy to navigate and delightful to use.</p>
+                </div>
+                <div class="service-box" onclick="toggleDetails(this)">
+                    <img src="images/DIGITAL.jpg" alt="Digital Marketing">
+                    <h4>Digital Marketing</h4>
+                    <p>Our Digital Marketing services are designed to help your business grow online and reach 
+                        a larger, more targeted audience. We offer a comprehensive range of strategies, including SEO 
+                        (Search Engine Optimization), social media marketing, content marketing, PPC (Pay-Per-Click) 
+                        advertising, and email marketing, all tailored to your specific goals.</p>
+          <p>We focus on driving traffic, improving brand visibility, and increasing conversions by using data-driven 
+            strategies. By analyzing market trends, competitor behavior, and customer preferences, we create personalized campaigns that resonate with your audience, ensuring 
+       a higher ROI (Return on Investment) for your business.</p>
+        <p>With our expert team, we ensure that your brand stands out in the competitive digital landscape, helping you engage with your customers and build long-lasting relationships. Let us take your online presence to the next level and maximize your digital marketing potential.</p>
+                </div>
+                <div class="service-box" onclick="toggleDetails(this)">
+                    <img src="images/MOBILE.jpg" alt="Mobile App Development">
+                    <h4>Mobile App Development</h4>
+                    <p>We specialize in creating high-performance mobile applications for both iOS and Android platforms. Our team combines innovation, creativity, and technical expertise to design and develop apps that are tailored to meet the specific needs of your business and your users.</p>
+  <p>Whether you're looking to build a new app from scratch or improve an existing one, we ensure a seamless, user-friendly experience that keeps your audience engaged. Our mobile apps are designed with the latest technologies, ensuring smooth performance, scalability, and compatibility across multiple devices.</p>
+  <p>We focus on every detail, from intuitive UI/UX design to integrating powerful features, ensuring that your app not only looks great but also functions flawlessly. Let us help you bring your ideas to life and reach your customers wherever they are, on any device.</p>
+                </div>
+                <div class="service-box" onclick="toggleDetails(this)">
+                    <img src="images/SEO.jpg" alt="SEO Optimization">
+                    <h4>SEO Optimization</h4>
+                    <p>Our SEO Optimization services are designed to improve your website's visibility on search engines like Google, ensuring that your business ranks higher and reaches the right audience. We focus on both on-page and off-page SEO strategies to enhance your site’s performance and drive organic traffic.</p>
+  <p>By conducting thorough keyword research, optimizing your content, improving site structure, and building high-quality backlinks, we ensure that your website is fully optimized for search engines. Our team stays updated with the latest SEO trends and algorithms, so your site remains competitive in the ever-changing digital landscape.</p>
+  <p>With our tailored SEO strategies, we help you increase your website’s search engine ranking, attract more visitors, and boost conversions. Let us take your online presence to the next level and help your business grow by reaching more potential customers through effective SEO practices.</p>
+                </div>
+                <div class="service-box" onclick="toggleDetails(this)">
+                    <img src="images/CLOUD.jpg" alt="Cloud Services">
+                    <h4>Cloud Services</h4>
+                    <p>Our Cloud Services provide secure, scalable, and reliable cloud solutions designed to meet the unique needs of your business. Whether you're looking to migrate your existing infrastructure to the cloud or optimize your cloud-based applications, we offer tailored solutions that enhance your operational efficiency.</p>
+  <p>We specialize in cloud computing, data storage, disaster recovery, and cloud security, ensuring that your data is protected and accessible at all times. Our team works with leading cloud providers like AWS, Google Cloud, and Microsoft Azure to deliver flexible and cost-effective solutions for your business.</p>
+  <p>With our cloud services, you can improve collaboration, reduce IT costs, scale your resources efficiently, and ensure seamless access to your applications from anywhere. Let us help you leverage the power of the cloud to drive innovation and take your business to new heights.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="Your email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required placeholder="Your message" rows="6"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+        <footer id="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h2>About Us</h2>
+                        <p>Your go-to place for quality content and insights.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h3>Subscribe to Our Newsletter</h3>
+                        <form>
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 MyWebsite. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    <script defer src="script.js"></script> 
+</body>
+</html>
